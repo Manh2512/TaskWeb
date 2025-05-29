@@ -1,0 +1,144 @@
+.container {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 50px;
+    font-family: 'Arial', sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #276ca2;
+    text-shadow: 2px 2px #edf7ff;
+    margin-bottom: 30px;
+}
+
+.input-box {
+    justify-items: center;
+    width: 65%;
+    padding-bottom: 20px;
+    margin: 0 auto;
+}
+
+.action-choose {
+    background-color: #d5e6ff;
+    color: #737373;
+    width: 13%;
+    height: 35px;
+    border: 1px solid #296da3;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    margin-right: 10px;
+}
+
+.action-choose:hover {
+    border-color: #ffffff;
+}
+
+.input-task {
+    width: 60%;
+    padding: 10px;
+    margin: 0 auto;
+    border: 2px solid #276ca2;
+    border-radius: 8px;
+    background-color: #edf7ff;
+    color: #000000;
+    font-size: 0.9rem;
+}
+
+.input-dl {
+    width: 11%;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid #276ca2;
+    border-radius: 8px;
+    background-color: #edf7ff;
+    color: #000000;
+    font-size: 0.9rem;
+}
+
+.submit-button {
+    background-color: #549bad;
+    color: #ffffff;
+    width: 15%;
+    height: 35px;
+    margin: 10px;
+    border: 2px solid #276ca2;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 1rem;
+    box-shadow: 0 0 3px #eef7ff;
+}
+
+.submit-button:hover {
+    background-color: #276ca2;
+}
+
+table {
+    margin: auto;
+    border-radius: 4px;
+    width: 85%;
+    background-color: #276ca2;
+    max-width: 1000px;
+}
+
+thead, tbody{
+    display: block;
+    width: 100%;
+}
+
+tbody {
+    max-height: 250px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+th {
+    padding-left: 26px;
+    padding-right: 26px;
+    line-height: 20px;
+    background-color: #276ca2;
+    color: #EBDFE1
+}
+
+td {
+    padding-left: 26px;
+    padding-right: 26px;
+    line-height: 20px;
+    height: 20px;
+    color: #1E1E1E
+}
+
+tr {
+    width: 100%;
+}
+
+.tr-odd{
+    background-color: #dff0ff;
+}
+
+.tr-even{
+    background-color: #a0c1de;
+}
+
+.task {
+    padding: 5px;
+    width: 58%
+}
+
+.index, .created, .deadline {
+    text-align: center;
+}
+.index {
+    width: 6%
+}
+.created{
+    width: 24%
+}
+.deadline {
+    width: 24%
+}
