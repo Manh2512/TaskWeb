@@ -4,6 +4,7 @@ import './App.css'
 import Signup from "./Signup/page";
 import Login from "./Login/page";
 import Home from "./Home/page";
+import Main from "./Main/page";
 
 function UserPage() {
   const { username } = useParams();
@@ -18,6 +19,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
+        <Route path="/" element={<Main/>}></Route>
         <Route path="/signup" element={<Signup/>}></Route>
         <Route path="/login" element={<Login/>}></Route>
         <Route path="/:username" element={<UserPage />}>

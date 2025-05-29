@@ -1,0 +1,31 @@
+.main-container {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 50px;
+    font-family: 'Arial', sans-serif;
+}
+
+.app-name {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #276ca2;
+    text-shadow: 2px 2px #edf7ff;
+    margin-bottom: 30px;
+}
+
+button {
+    background-color: #d5e6ff;
+    justify-items: center;
+    width: 36%;
+    border: 2px solid #296da3;
+    border-radius: 10px;
+    color: #424242;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 15px;
+    margin: 10px;
+}
