@@ -24,4 +24,4 @@ npm start
 ```
 
 ##### 3. Launch the web:
-Open a web browser and navigate to http://localhost:3000/
+Open a web browser and navigate to http://localhost:3000/.
