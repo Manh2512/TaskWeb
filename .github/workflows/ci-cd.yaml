@@ -45,16 +45,3 @@ jobs:
       with:
         name: build
         path: ./client/build
-
-    - name: Deploy to local server
-      uses: appleboy/ssh-action@v0.1.2
-      with:
-        host: ${{ secrets.SERVER_IP }}
-        username: your-server-username
-        key: ${{ secrets.SSH_PRIVATE_KEY }}
-        script: |
-          cd /path/to/your/app
-          git pull origin main
-          npm install
-          npm run build --prefix client
-          pm2 restart all
