@@ -72,6 +72,7 @@ h1 {
     font-weight: bold;
     font-size: 1rem;
     box-shadow: 0 0 3px #eef7ff;
+    text-align: center;
 }
 
 .submit-button:hover {
